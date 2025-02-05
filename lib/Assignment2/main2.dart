@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import '../Live_test2/live_test.dart';
 import 'contact_list.dart';
 
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           title: 'Contact List',
           theme: ThemeData.light(),
-          home:ContactList(),
+          home:LiveTest(),
         )
     );
   }

@@ -14,6 +14,7 @@ class _ContactListState extends State<ContactList> {
   TextEditingController numberController = TextEditingController();
   List<Map<String, String>> contacts = [];
 
+  // add function
   void addContact() {
     String name = nameController.text.trim();
     String number = numberController.text.trim();
